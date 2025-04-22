@@ -16,7 +16,7 @@ options2 = ('1. Single-Day Park Hopper',
 
 
 # 1 ask the user if they want to go to wdw
-answer1 = print(question1)
+answer1 = input(question1)
 
 if answer1 == 'Yes':
     answer2 = int(input(question2))
